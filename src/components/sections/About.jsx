@@ -11,7 +11,7 @@ export const About = () => {
     "Tailwind CSS",
     "Bootstrap",
   ];
-  const graphicSkills = ["Adobe Photoshop", "Adobe Flash", "Adobe Premier", "Canva", "CapCut"];
+  const graphicSkills = ["Adobe Photoshop", "Adobe Animate", "Adobe Premier", "Canva", "CapCut"];
   return (
     <section
       id="about"
