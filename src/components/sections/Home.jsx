@@ -4,10 +4,10 @@ import { Carousel } from "./Carousel";
 
 export const Home = () => {
   const slides = [
-    "/img/carousel/carousel1.jpg",
-    "/img/carousel/carousel2.JPG",
-    "/img/carousel/carousel3.jpg",
-    "/img/carousel/carousel4.gif",
+    "./img/carousel/carousel1.jpg",
+    "./img/carousel/carousel2.JPG",
+    "./img/carousel/carousel3.jpg",
+    "./img/carousel/carousel4.gif",
   ];
 
   return (
@@ -35,7 +35,7 @@ export const Home = () => {
             <div className="flex flex-col xl:flex-row items-center justify-between">
               <div className="p-6 text-left">
                 <img
-                  src="../img/ProfilePic.jpg"
+                  src="./img/ProfilePic.jpg"
                   alt="profile img"
                   className="h-60 rounded-full
                 "
