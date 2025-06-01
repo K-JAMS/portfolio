@@ -27,7 +27,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="mx-auto items-center justify-center py-20 max-w-[770px] max-h-[1920px] flow-root"
     >
       <RevealOnScroll>
         <div className="responsive-input px-4 mx-auto">
@@ -107,7 +107,10 @@ export const Contact = () => {
             <a href="https://github.com/K-JAMS" className="h-5 cursor-pointer">
               <i className="fa-brands fa-github"></i>
             </a>
-            <a href = "https://www.linkedin.com/in/kim-johnrel-mercado/" className="h-5 cursor-pointer">
+            <a
+              href="https://www.linkedin.com/in/kim-johnrel-mercado/"
+              className="h-5 cursor-pointer"
+            >
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
           </div>

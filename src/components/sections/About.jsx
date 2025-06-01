@@ -15,7 +15,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="items-center justify-center pt-20 max-h-[1920px] flow-root"
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
@@ -64,7 +64,9 @@ export const About = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover hover:-translate-y-1 transition-all text-left">
-              <h3 className="text-xl font-bold mb-4">Education 🏫</h3>
+              <h3 className="text-xl font-bold mb-4">
+                Education <i className="fa-solid fa-graduation-cap"></i>
+              </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong>B.S. in Computer Engineering</strong> - Bulacan State
@@ -72,7 +74,9 @@ export const About = () => {
                 </li>
                 <li>Relevant Coursework: Web Development, AutoCad, OOP</li>
               </ul>
-              <h3 className="text-xl font-bold mb-4 mt-7">Trainings 📖</h3>
+              <h3 className="text-xl font-bold mb-4 mt-7">
+                Trainings <i className="fa-solid fa-book-open"></i>
+              </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong>Frontend Fundamentals Bootcamp </strong> - at
@@ -88,7 +92,9 @@ export const About = () => {
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover hover:-translate-y-1 transition-all text-left">
-              <h3 className="text-xl font-bold mb-4">Work Experience 💼</h3>
+              <h3 className="text-xl font-bold mb-4">
+                Work Experience <i className="fa-solid fa-briefcase"></i>
+              </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
@@ -117,7 +123,7 @@ export const About = () => {
             href="https://drive.google.com/file/d/1J64mxRXMzIdeni0ZGT8fIpGGqmYuxxRo/view?usp=drive_link"
             className="mt-5 w-full justify-center text-center m-auto block text-blue-400 hover:text-blue-300 trainsition-colors"
           >
-            View Updated Resume ▶
+            View Updated Resume <i className="fa-solid fa-play"/>
           </a>
         </div>
       </RevealOnScroll>

@@ -26,8 +26,12 @@ export const LoadingScreen = ({ onComplete }) => {
 
   return (
     <div className="fixed inset-0 z-50 bg-black text-blue-500 flex flex-col items-center justify-center">
-      
-      <div className="mb-4 text-4xl font-mono font-bold">
+      <div className="mb-4 text-4xl font-mono font-bold flex items-center justify-center">
+        <img
+          src="./img/jamsolutions-icon.png"
+          alt="Logo"
+          className="max-w-[60px]"
+        />
         <span className="font-mono font-bold bg-gradient-to-r from-yellow-400 to-red-600 bg-clip-text text-transparent leading-right">
           JAM
         </span>

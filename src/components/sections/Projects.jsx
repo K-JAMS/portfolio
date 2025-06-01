@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center"
+      className="pt-20 items-center justify-center max-h-[1920px] flow-root"
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
@@ -36,11 +36,11 @@ export const Projects = () => {
                   href="https://k-jams.github.io/photo-gallery/"
                   className="text-blue-400 hover:text-blue-300 trainsition-colors my-2"
                 >
-                  View Project ▶
+                  View Project <i className="fa-solid fa-play"/>
                 </a>
               </div>
             </div>
-            
+
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(9,130,246,0.2)] transition-all">
               <h3 className="text-xl font-bold mb-4">Real-Estate Web</h3>
               <p>
@@ -62,7 +62,7 @@ export const Projects = () => {
                   href="https://67f5211aafeb4f6f856a2f3e--lively-klepon-c3649c.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 trainsition-colors my-2"
                 >
-                  View Project ▶
+                  View Project <i className="fa-solid fa-play"/>
                 </a>
               </div>
             </div>
