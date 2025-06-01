@@ -99,7 +99,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     Outbound Sales Representative at Syndesi Operation (Nov 2023
-                    - Mar 2024)
+                    - May 2024)
                   </h4>
                   <p>
                     Utilized sales scripts and product knowledge to effectively
@@ -120,10 +120,10 @@ export const About = () => {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/1J64mxRXMzIdeni0ZGT8fIpGGqmYuxxRo/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1_h3v-ucWPabmBeGuTA_XYO-SJWtpFBrC/view?usp=sharing"
             className="mt-5 w-full justify-center text-center m-auto block text-blue-400 hover:text-blue-300 trainsition-colors"
           >
-            View Updated Resume <i className="fa-solid fa-play"/>
+            View Updated Resume <i className="fa-solid fa-play" />
           </a>
         </div>
       </RevealOnScroll>
