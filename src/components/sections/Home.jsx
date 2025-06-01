@@ -11,7 +11,7 @@ export const Home = () => {
   ];
 
   return (
-    <div>
+    <div id="home">
       <div className="m-0 mx-auto p-0 pt-15 w-full max-w-[1080px] min-w-[320px] max-h-[60vh] relative">
         <Carousel autoSlide={true}>
           {slides.map((src, index) => (
@@ -27,10 +27,7 @@ export const Home = () => {
         <div className="absolute -bottom-90 left-0 right-0 h-500 bg-gradient-to-t from-black to-transparent pointer-events-none" />
         <div className="absolute -bottom-70 inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />
       </div>
-      <section
-        id="home"
-        className="mb-[200px] pt-[200px] max-h-[480px] flex items-center justify-center relative responsive-alignment-y"
-      >
+      <section className="mb-[200px] pt-[200px] max-h-[480px] flex items-center justify-center relative responsive-alignment-y">
         <RevealOnScroll>
           <div className="text-center z-10 px-4 mt-10">
             <div className="flex flex-col xl:flex-row items-center justify-between">

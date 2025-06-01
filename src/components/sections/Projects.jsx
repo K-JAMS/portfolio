@@ -22,7 +22,7 @@ export const Projects = () => {
                 with tabbed navigation and dark mode.
               </p>
               <div className="flex flex-wrap gap-2 mb-4 mt-2">
-                {["React", "TailwindCSS"].map((tech, key) => (
+                {["ReactJS", "TailwindCSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(9,130,246,0.1)] transition cursor-default"

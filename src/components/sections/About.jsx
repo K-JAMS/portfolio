@@ -6,12 +6,18 @@ export const About = () => {
     "Html",
     "CSS",
     "Vanilla JS",
-    "React JS",
+    "ReactJS",
     "Typescript",
-    "Tailwind CSS",
+    "TailwindCSS",
     "Bootstrap",
   ];
-  const graphicSkills = ["Adobe Photoshop", "Adobe Animate", "Adobe Premier", "Canva", "CapCut"];
+  const graphicSkills = [
+    "Adobe Animate",
+    "Adobe Premier",
+    "Adobe Photoshop",
+    "CapCut",
+    "Canva",
+  ];
   return (
     <section
       id="about"
