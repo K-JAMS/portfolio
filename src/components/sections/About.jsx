@@ -126,7 +126,7 @@ export const About = () => {
             </div>
           </div>
           <a
-            href="https://drive.google.com/file/d/1_h3v-ucWPabmBeGuTA_XYO-SJWtpFBrC/view?usp=sharing"
+            href="https://drive.google.com/file/d/1gzHHhGyf3Xn7nKxWJAA-XpXttrQVTScS/view?usp=sharing"
             className="mt-5 w-full justify-center text-center m-auto block text-blue-400 hover:text-blue-300 trainsition-colors"
           >
             View Updated Resume <i className="fa-solid fa-play" />
